@@ -1,6 +1,6 @@
-#Drag Drop feature
+# Drag Drop feature
 
-#modules used
-1. [intractjs.io](intractjs.io)
-2. [jQuery](jQuery.com)
-3. [Bootstrap](bootstrap.com)
+# modules used
+1. [intractjs.io](http://interactjs.io/)
+2. [jQuery](https://jquery.com/)
+3. [Bootstrap](https://getbootstrap.com/)
