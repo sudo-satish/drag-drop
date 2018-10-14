@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/drag-drop.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>Drag drop</title>
+</head>
+<body>
+
+    <div class="card admin" style="width: 20rem;">
+        <img class="card-img-top" src="assets/image/admin.png" alt="Card image cap" height="45px">
+        <div class="card-body">
+            <h4 class="card-title">Admin</h4>
+            <p class="card-text">Admin is powerfull</p>
+        </div>
+    </div>
+
+    <div id="group-dropzone" class="dropzone">
+        <div class="rounded-circle user drag-drop">
+            <img src="assets/image/round.svg" alt="..." class="rounded-circle">
+        </div>
+    </div>
+
+    <div class="right-side user-list">
+        <div class="rounded-circle user drag-drop" user-id="1">
+            <img src="assets/image/round.svg" alt="..." class="rounded-circle">
+        </div>
+        <div class="rounded-circle user drag-drop" user-id="2">
+            <img src="assets/image/round.svg" alt="..." class="rounded-circle">
+        </div>
+        <div class="rounded-circle user drag-drop" user-id="3">
+            <img src="assets/image/round.svg" alt="..." class="rounded-circle">
+        </div>
+    </div>
+
+    <div class="left-side user-list">
+        <div class="rounded-circle user drag-drop" user-id="4">
+            <img src="assets/image/round.svg" alt="..." class="rounded-circle">
+        </div>
+        <div class="rounded-circle user drag-drop" user-id="5">
+            <img src="assets/image/round.svg" alt="..." class="rounded-circle">
+        </div>
+        <div class="rounded-circle user drag-drop" user-id="6">
+            <img src="assets/image/round.svg" alt="..." class="rounded-circle">
+        </div>
+    </div>
+
+
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/interact.min.js"></script>
+
+    <script src="assets/js/group-helper.js"></script>
+    <script src="assets/js/Group.js"></script>
+    <script src="assets/js/drag-drop.js"></script>
+</body>
+</html>

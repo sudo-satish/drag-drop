@@ -1,0 +1,29 @@
+
+.admin {
+    margin: 10px auto 30px;
+}
+
+.user {
+    margin: 5px auto;
+    height: 75px;
+    width: 75px;
+    z-index: 101;
+}
+
+
+.user-list {
+    position: fixed;
+    background-color: darkgray;
+    height: 100%;
+    width: 9%;
+    top: 0%;
+    padding: 2%;
+}
+
+.left-side {
+    left: 0%;
+}
+
+.right-side {
+    right: 0%;
+}
